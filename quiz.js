@@ -1,6 +1,6 @@
 function checkAnswer() {
   const radioButton = document.querySelectorAll('[name="quiz"]');
-  const textStatus = document.getElementById("feedback");
+  const textStatus = document.querySelector("#feedback");
   let userAnswer;
   let correctAnswer = 4;
   radioButton.forEach((answer) => {
