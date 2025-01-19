@@ -11,7 +11,7 @@ function checkAnswer() {
   if (userAnswer === correctAnswer) {
     textStatus.textContent = "Correct! Well done.";
   } else {
-    textStatus.textContent = "incorrect. Try again!";
+    textStatus.textContent = "That's incorrect. Try again!";
   }
 }
 const submitButton = document.getElementById("submit-answer");
