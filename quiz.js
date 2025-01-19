@@ -8,7 +8,7 @@ function checkAnswer() {
       userAnswer = answer.value;
     }
   });
-  if (userAnswer == correctAnswer) {
+  if (userAnswer === correctAnswer) {
     textStatus.textContent = "Correct! Well done.";
   } else {
     textStatus.textContent = "incorrect. Try again!";
